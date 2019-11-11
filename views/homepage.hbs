@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>
+            JB Toy Balloons
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="jquery.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $("#logo").click(function(){
+                    $("#homeform").submit()
+                })
+                
+                $("#Home").click(function(){
+                    $("#homeform").submit()
+                })
+                
+                $("#Services").click(function(){
+                    $("#servform").submit()
+                })
+                
+                  $("#AbtUs").click(function(){
+                    $("#aboutform").submit()
+                })
+                
+                  $("#Contact").click(function(){
+                    $("#contactform").submit()
+                })
+                
+                $("#reg").click(function(){
+                    $("#regform").submit()
+                })
+                
+                $("#login").click(function(){
+                    $("#logform").submit()
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <header class="HeadFoot">
+            <ul id="left-nav">
+                <li id="logo"><img src="logo.png" id="logo"></li>          
+            </ul>
+            
+            <ul id="center-nav">
+                <li id="Home">Home</li>
+                <li id="Services">Services</li>
+                <li id="AbtUs">About Us</li>
+                <li id="Contact">Contact Us</li>
+            </ul>
+            
+            
+            <ul id="right-nav">
+                <p id="frEmp">For Employees:</p>
+                <li id="login">Log In</li>
+                <li id="reg">Register</li>
+                
+            </ul>
+        </header>
+        
+        <div class="contain-all">
+            <div class="main">
+                <div class="track_container">
+                    <div class="tracker">
+                        <br><br>
+                        <br><br>
+                        <img src="logo5.png" id="logo1">
+                        <h1>Welcome to JB Toy Balloons &amp; Party Needs!</h1>
+                        <h2>Order Tracking:</h2>
+                        <form method="post" action="track">
+                            <input type="Text" name="track" placeholder="Track No." id="t_text"><br><br>
+                            <input type="submit" value="Track Order" id="t_submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        <form action="home" id="homeform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="Services" id="servform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="aboutUs" id="aboutform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="contactUs" id="contactform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="register" id="regform">
+                <input type="hidden">
+        </form>
+        
+        <form action="login" id="logform">
+                <input type="hidden">
+        </form>
+        
+        <footer id="copyright">
+            <p>&copy;2019 ALL RIGHTS RESERVED. JB TOY BALLOONS</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,328 @@
+body{
+    background-color: #fff3ca;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contain-all{
+    min-height: 100%;
+    background-color: #fff3ca;
+}
+
+#logo{
+    height: 125px;
+    position: relative;
+    left: 20px;
+    bottom: 13px;
+}
+
+#logo1{
+    height: 300px;
+}
+
+main{
+    overflow: auto;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+track_container{
+    display: inline-block;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    height: 120px;
+    color: ghostwhite;
+    background-color: #e01010;
+}
+
+#left-nav{
+    float :left;
+    list-style: none;
+    position: relative;
+    top: 10px;
+}
+
+#center-nav{
+    text-align: center;
+    list-style: none;
+    position: relative;
+    top: 20px;
+}
+
+#center-nav li{
+    display: inline-block;
+    padding: 10px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    border-radius: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+#center-nav li:hover{
+    background: #ffc600;
+    color: black;
+    transition : 0.4s;
+    padding-inline-start: 80px;
+    padding-inline-end: 80px;
+}
+
+
+
+#right-nav{
+    float :right;
+    list-style: none;
+    position: relative;
+    top: -5px;
+}
+
+#right-nav li{
+    display:inline-block;
+    padding: 5px;
+}
+
+#right-nav li:hover{
+  background: #ffc600;
+    color: black;
+    transition : 0.4s;
+    border-radius: 100px;
+}
+
+
+footer{
+    clear:both;
+    background-color: black;
+    position: relative;
+    color: white;
+    height: 30px;
+    margin-top -100px;
+    text-align: center;
+}
+
+
+#registration{
+    height:500px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+
+#frEmp{
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.tracker{
+  display: block;
+  text-align: center;
+}
+
+.service_container{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.serv_img{
+    width: 350px;
+    max-width: 100%; 
+    max-height: 350px;
+}
+
+.serv_img:hover{
+    transform: scale(0.97);
+    transition: .5s;
+}
+
+
+.serv_img_cont1{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.serv_img_cont2{
+    min-width: 0;
+    margin: 10px;
+}
+
+#t_text{
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    border-style: groove;
+}
+
+#t_submit{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    border-style: none;
+}
+
+#t_submit:hover{
+    background-color: red;
+    color: gold;
+}
+
+.about_container{
+    display: flex;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    width: 1250px;
+    position: relative;
+    top: 30px;
+}
+
+.logreg_container{
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    left: 525px;
+    background-color: #e01010;
+    border-radius: 30px;
+    top: 30px;   
+}
+
+.loginT{
+    border-radius: 5px;
+    border-style: none;
+    margin: 10px;
+    height: 40px;
+    width: 250px;
+    text-indent: 10px;
+}
+
+#loginB{
+    border-radius: 5px;
+    height: 30px;
+    background-color: #ffc600;
+    border-style: groove;
+    background-color: black;
+    color: white;
+}
+
+#loginB:hover{
+    border-style: inset;
+    background-color: gold;
+    color: red;
+}
+
+
+.regT{
+    border-radius: 5px;
+    border-style: none;
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    text-indent: 10px;
+}
+
+.regB{
+    border-radius: 5px;
+    height: 30px;
+    background-color: #ffc600;
+    border-style: groove;
+    background-color: black;
+    color: white;
+}
+
+.regB:hover{
+    border-style: inset;
+    background-color: gold;
+    color: red;
+}
+
+
+.contact_container{
+    text-align: center;
+}
+
+#abtus-head{
+    text-align: center;
+    font-size: 40px;
+    color: #e01010;
+    font-weight: bold; 
+}
+
+#contact-head{
+    font-size: 40px;
+    color: #e01010;
+    font-weight: bold;
+}
+
+#contact_contform{
+    height: 400px;
+    width: 100%;
+    background-color: #c5c3c3;
+}
+
+.contform{
+    border-radius: 5px;
+    border-style: none;
+    text-indent: 10px;
+    width: 240px;
+    height: 30px;
+    margin: 4px;
+}
+
+#cont_msg{
+    position: relative;
+    left: 320px;
+    bottom: 172px;
+    height: 170px;
+    width: 350px;
+}
+
+#cntform{
+    position: relative;
+    top: 130px;
+    right: 200px; 
+}
+
+#contB{
+    position:relative;
+    top: 20px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+
+#contB:hover{
+    background-color: red;
+    color: gold;
+}
+
+.about{
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+
+#cont_name{
+    margin-top: 10px;
+}
+
+#cont_mail{
+    margin-top: 10px;
+}
+
+#cont_subj{
+    margin-top: 10px;
+}

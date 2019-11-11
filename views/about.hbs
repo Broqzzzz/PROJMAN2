@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>
+            JB Toy Balloons
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="jquery.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $("#logo").click(function(){
+                    $("#homeform").submit()
+                })
+                
+                $("#Home").click(function(){
+                    $("#homeform").submit()
+                })
+                
+                $("#Services").click(function(){
+                    $("#servform").submit()
+                })
+                
+                  $("#AbtUs").click(function(){
+                    $("#aboutform").submit()
+                })
+                
+                  $("#Contact").click(function(){
+                    $("#contactform").submit()
+                })
+                
+                $("#reg").click(function(){
+                    $("#regform").submit()
+                })
+                
+                 $("#login").click(function(){
+                    $("#logform").submit()
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <header class="HeadFoot">
+            <ul id="left-nav">
+                <li id="logo"><img src="logo.png" id="logo"></li>          
+            </ul>
+            
+            <ul id="center-nav">
+                <li id="Home">Home</li>
+                <li id="Services">Services</li>
+                <li id="AbtUs">About Us</li>
+                <li id="Contact">Contact Us</li>
+            </ul>
+            
+            
+            <ul id="right-nav">
+                <p id="frEmp">For Employees:</p>
+                <li id="login">Log In</li>
+                <li id="reg">Register</li>
+                
+            </ul>
+        </header>
+        
+        <div class="contain-all">
+            <div class="main">
+                 <p id="abtus-head">ABOUT US</p>
+                <div class="about_container">
+                    <br><br>
+                    <br><br>
+                    <img src="logo5.png" id="logo1">
+                    <div class="about">
+                        <span>
+                            JB TOY BALLOONS AND PARTY NEEDS is a one-stop rental shop that has a complete selection for all event needs including toys, balloons, catering, tent, chairs and table rentals.
+                        </span><br><br>
+                        <span>
+                            We have the lowest prices and has the largest selection of event supplies. In spite of that we value quality service to our clients and this made our company lasts through the years.
+                        </span><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        <form action="home" id="homeform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="Services" id="servform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="aboutUs" id="aboutform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="contactUs" id="contactform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="register" id="regform">
+                <input type="hidden">
+        </form>
+        
+        <form action="login" id="logform">
+                <input type="hidden">
+        </form>
+        
+        <footer id="copyright">
+            <p>&copy;2019 ALL RIGHTS RESERVED. JB TOY BALLOONS</p>
+        </footer>
+    </body>
+</html>

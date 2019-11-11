@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>
+            JB Toy Balloons
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        
+        <script>
+            $(document).ready(function(){
+                $("#logo").click(function(){
+                    $("#homeform").submit()
+                })
+                
+                $("#Home").click(function(){
+                    $("#homeform").submit()
+                })
+                
+                $("#Services").click(function(){
+                    $("#servform").submit()
+                })
+                
+                  $("#AbtUs").click(function(){
+                    $("#aboutform").submit()
+                })
+                
+                  $("#Contact").click(function(){
+                    $("#contactform").submit()
+                })
+                
+                $("#reg").click(function(){
+                    $("#regform").submit()
+                })
+                
+                 $("#login").click(function(){
+                    $("#logform").submit()
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <header class="HeadFoot">
+            <ul id="left-nav">
+                <li id="logo"><img src="logo.png" id="logo"></li>          
+            </ul>
+            
+            <ul id="center-nav">
+                <li id="Home">Home</li>
+                <li id="Services">Services</li>
+                <li id="AbtUs">About Us</li>
+                <li id="Contact">Contact Us</li>
+            </ul>
+            
+            
+            <ul id="right-nav">
+                <p id="frEmp">For Employees:</p>
+                <li id="login">Log In</li>
+                <li id="reg">Register</li>
+                
+            </ul>
+        </header>
+        
+        <div class="contain-all">
+            <div class="main">
+                <div class="contact_container">
+                    <h1 id="contact-head">CONTACT US</h1>
+                    <h2>843-1960 / 0917-716-2724 / jbtoyballoons@yahoo.com</h2>
+                    <h3>1688 Evangelista Street Bangkal Makati City, Makati</h3>
+                    <div id="contact_contform">
+                        <form action="contact" method="post" id="cntform">
+                            <input type="text" placeholder="Name" id="cont_name" class="contform"><br>
+                            <input type="email"placeholder="E-mail" id="cont_mail" class="contform"><br>
+                            <input type="text" placeholder="Subject" id="cont_subj" class="contform"><br>
+                            <input type="button" value="Submit" id="contB"><br>
+                            <input type="text" placeholder="Message/Concerns" id="cont_msg" class="contform">
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+         <form action="home" id="homeform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="Services" id="servform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="aboutUs" id="aboutform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="contactUs" id="contactform" >
+            <input type="hidden">
+        </form>
+        
+        <form action="register" id="regform">
+                <input type="hidden">
+        </form>
+        
+        <form action="login" id="logform">
+                <input type="hidden">
+        </form>
+        
+        <footer id="copyright">
+            <p>&copy;2019 ALL RIGHTS RESERVED. JB TOY BALLOONS</p>
+        </footer>
+    </body>
+</html>
